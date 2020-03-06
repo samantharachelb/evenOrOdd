@@ -1,4 +1,4 @@
-*.html linguist-language=Javascript
-*.pug linguist-language=Javascript
-*.scss linguist-language=Javascript
-*.css linguist-language=Javascript
+*.html linguist-language=JavaScript
+*.pug linguist-language=JavaScript
+*.scss linguist-language=JavaScript
+*.css linguist-language=JavaScript
