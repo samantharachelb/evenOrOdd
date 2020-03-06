@@ -97,3 +97,10 @@ That number you entered is either outside the JavaScript min/max safe integer si
 }
 ```
 
+### FAQ
+
+#### Why can't I access the API or Docs?
+Probably because you've been marked as suspicious and have been blocked by the Cloudflare firewall.
+
+#### Is this API supposed to be some kind of joke
+I am a serious developer. This API is a powerful tool and should be treated with respect. I would never do such a thing like that

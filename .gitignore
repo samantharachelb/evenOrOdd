@@ -107,6 +107,7 @@ dist
 
 # Logs
 
+*.html
 
 dist/
 app/dist/
