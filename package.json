@@ -1,0 +1,29 @@
+{
+  "name": "evenorodd",
+  "version": "1.0.0",
+  "description": "Is this number even or is it odd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/samantharachelb/evenOrOdd.git"
+  },
+  "keywords": [
+    "iseven",
+    "isodd"
+  ],
+  "author": "Samantha Emily-Rachel Belnavis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samantharachelb/evenOrOdd/issues"
+  },
+  "homepage": "https://github.com/samantharachelb/evenOrOdd#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28"
+  }
+}
