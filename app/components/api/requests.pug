@@ -2,12 +2,12 @@
     h3
         span Making a Request
 
-    p Make a <code>GET</code> request to <code>`https://evenOrOdd.spaceburrito.xyz/api/{number}`</code>
+    p Make a <code>GET</code> request to <code>`https://api.spaceburrito.xyz/{number}`</code>
 
     pre
         code.double
             :highlight(lang="javascript")
-                fetch('https://evenorodd.spaceburrito.xyz/api/69').then(function(res) {
+                fetch('https://api.spaceburrito.xyz/evenorodd/69').then(function(res) {
                     console.log(res.numberType);
                     // odd
                 });
