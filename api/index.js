@@ -36,8 +36,8 @@ app.use(
     })
 );
 
-app.get('/check/*', (req, res) => {
-    const input = decodeURI(req.originalUrl.substr(5)).trim();
+app.get('/*', (req, res) => {
+    const input = decodeURI(req.originalUrl.substr(1)).trim();
 
     if (!input.match(/^\d+$/)) {
       return res.json({
