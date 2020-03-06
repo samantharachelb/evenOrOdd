@@ -1,0 +1,20 @@
+doctype html
+html(lang="en-CA")
+    head
+        title Even or Odd | isEven-isOdd as a Service
+        meta(charset="utf-8")
+
+        meta(name="viewport" content="width=device-width,initial-scale=1")
+        meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css")
+        link(href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet")
+        body
+        #wrapper
+            include components/header
+            include components/intro
+            .section
+                include components/checker
+                include components/api/intro
+                include components/api/requests
+                include components/api/response

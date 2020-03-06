@@ -1,0 +1,73 @@
+.container.stack
+    h3
+        span Responses
+
+    h4
+        span 200 - OK
+
+    p Make your 10x dreams come true
+    pre
+        code
+            :highlight(language="javascript")
+                {
+                    "status": 200,
+                    "input": "69",
+                    "numberType": "odd"
+                }
+
+    h4
+        span 400 - Invalid Request
+
+    p It's Intern Season™.
+    pre
+        code
+            :highlight(language="javascript")
+                {
+                    "status": 400,
+                    "message": "no number was supplied"
+                }
+
+    pre
+        code
+            :highlight(language="javascript")
+                {
+                    "status": 400,
+                    "message": "You can only check if an integer is even or odd"
+                }
+
+    h4
+        span 413 - Request too large
+    p That number is either outside the JS min/max safe integer size, or you've just entered too many numbers
+    pre
+        code
+            :highlight(language="javascript")
+                {
+                    "status": 413,
+                    "message": "You've entered /way/ too many numbers"
+                }
+    pre
+        code
+            :highlight(language="javascript")
+                {
+                    "status": 413,
+                    "message": "Integers shouldn't be larger than the MIN_SAFE_INTEGER"
+                }
+    pre
+        code
+            :highlight(language="javascript")
+                {
+                    "status": 413,
+                    "message": "Integers shouldn't be larger than the MAX_SAFE_INTEGER"
+                }
+
+    h4
+        span 429 - Rate Limit Exceeded
+
+    p 10x developer does not mean 10x my bandwidth costs. You can make up to 1000 requests inside a 15 minute window
+    pre
+        code
+            :highlight(language="javascript")
+                {
+                    "status": 429,
+                    "message": "Maybe calm down there with the requests there you big shot 10x-er"
+                }

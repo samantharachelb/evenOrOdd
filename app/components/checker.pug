@@ -1,0 +1,15 @@
+section.checker-section
+    .container.stack
+        h3#try-it
+            span Is this number even or odd?
+        .row
+            .col-md-6
+                p
+                    label(for="numberType") Your number goes here
+
+                label.speech.border-left
+                        textarea.number-input#numberType(name="numberType" placeholder="69")
+
+            .col-md-6
+                p.text-right The result comes out here
+                div#out.speech.right odd
