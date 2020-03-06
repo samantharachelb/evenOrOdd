@@ -10,12 +10,12 @@ export default number => {
 };
 
 function check(number) {
-    var numberType;
+    var state;
     if (isEven(number) === true) {
-        numberType = "even";
+        state = "even";
     } else if (isOdd(number) === true) {
-        numberType = "odd";
+        state = "odd";
     }
 
-    return numberType;
+    return state;
 }
