@@ -1,4 +1,22 @@
 {
-  "presets": ["@babel/preset-env"],
-  "plugins": [["@babel/transform-runtime"]]
+  "presets": ["@babel/preset-env", "@babel/preset-typescript"],
+  "plugins": [
+    ["@babel/plugin-transform-runtime"],
+    ["@babel/plugin-transform-typescript"],
+    ["@babel/plugin-transform-modules-commonjs"],
+    ["@babel/plugin-proposal-decorators", {
+      "legacy": true
+    }],
+    ["@babel/plugin-proposal-class-properties", {
+      "loose": true
+    }],
+    ["transform-class-properties"],
+    ["module-resolver", {
+      "extensions": [".ts"],
+      "root": ["./src"],
+      "alias": {
+        "@src": "./src"
+      }
+    }]
+  ]
 }

@@ -1,5 +1,6 @@
 # is-even and is-odd, but _this time it’s an API_
-A shitty meme as a service
+
+A shitty meme as a shitty service
 We've all seen the is-even and is-odd packages on npm, but can you really call yourself a 10x developer if you're not using all the APIs™?
 
 
